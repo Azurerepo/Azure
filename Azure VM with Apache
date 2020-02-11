@@ -1,0 +1,40 @@
+Azure Bootstrap
+Linux Based Virtual Machines:
+
+•	Ubuntu (14.04, 16.04 , 18.04)
+•	RHEL (7.7 and above)
+•	Cent OS (7.7 and above)
+Use Bootstrap commands to deploy Applications in Virtual Machine:
+•	Use bootstrap commands to deploy the applications like Apache, Tomcat, MySQL, and PostgreSQL while deploying the Virtual Machine. 
+•	Copy and paste the bootstrap commands in cloud init while creating a VM in advances section. 
+ 
+Commands to deploy applications in Ubuntu (14.04, 16.04, 18.04)
+Apache:
+
+# apt-get update
+# apt-get install apache2 -y
+# systemctl start apache2
+Apache Tomcat:
+
+# apt-get update
+# apt-get install java
+# apt-get install tomcat8 -y
+# systemctl start tomcat8
+
+MySQL:
+
+# apt-get update
+#apt-get install mysql –y
+#systemctl start mysql
+
+PostgreSQL:
+
+# apt-get update
+# apt-get –y install postgresql
+# systemctl start postgresql
+
+
+
+
+
+
